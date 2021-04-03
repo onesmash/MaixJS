@@ -1,3 +1,6 @@
 [submodule "libmaix"]
 	path = libmaix
 	url = https://github.com/sipeed/libmaix.git
+[submodule "quickjs-ffi"]
+	path = quickjs-ffi
+	url = https://github.com/onesmash/quickjs-ffi.git
