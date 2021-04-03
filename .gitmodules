@@ -4,6 +4,3 @@
 [submodule "quickjs-ffi"]
 	path = quickjs-ffi
 	url = https://github.com/onesmash/quickjs-ffi.git
-[submodule "quickjs"]
-	path = quickjs
-	url = https://github.com/onesmash/quickjs.git
