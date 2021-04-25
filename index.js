@@ -1,7 +1,7 @@
-import * as GPIOD from './libgpiod/gpiod'
+import * as GPIOD from './libgpiod/gpiod.js'
 import * as os from 'os'
 
-const chip = GPIOD.gpiodChipOpenByName('pio')
+const chip = GPIOD.gpiodChipOpenByName('gpiochip1')
 const line = GPIOD.gpiodChipGetLine(chip, 238)
 GPIOD.gpiodLineRequestOutput(line, 'LED', 1)
 GPIOD.gpiodLineSetValue(line, 0)
